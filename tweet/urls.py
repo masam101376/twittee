@@ -5,5 +5,5 @@ from . import views
 app_name = 'tweet'
 
 urlpatterns = [
-    path('', views.HomeView.as_view(), name='index')
+    path('', views.PostListView.as_view(), name='index')
 ]
